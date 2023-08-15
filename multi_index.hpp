@@ -13,6 +13,7 @@
 #include "types.hpp"
 
 
+
 template<dim_t D>
 std::ostream &operator<<(std::ostream &out, const TinyMultiIndex<D> &index)
 {
